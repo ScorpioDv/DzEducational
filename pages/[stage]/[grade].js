@@ -23,7 +23,7 @@ import { onValue } from 'firebase/database';
 import {db} from '../../firebase'
 import { ref as Ref } from 'firebase/database';
 //sh
-export default function hi({grade}) {
+export default function grade({grade}) {
   const router = useRouter()
   const  pid  = Object.values(router.query)
   let [data, setNewData] = useState()

@@ -19,7 +19,6 @@ export default function Downbar() {
             </div>
 
             </div>
-            <script src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
         </nav>
     )
 }

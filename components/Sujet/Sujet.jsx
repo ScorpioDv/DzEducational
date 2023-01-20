@@ -56,7 +56,6 @@ export default function Sujet(props){
         </div>
         <iframe
             src={src.split("/view?usp=drivesdk")[0] + "/preview"}
-            frameborder="0"
             type={"application/pdf"} 
             height="700" 
             width="80%" 

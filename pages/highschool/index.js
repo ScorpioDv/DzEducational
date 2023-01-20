@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { Router } from 'next/router';
 import { useState } from 'react';
- 
+ import React from 'react'
 /*
 //sh
 import React from "react";
@@ -20,7 +20,7 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./PrimarySub.module.scss";*/
 //sh
-export default function hi({grade}) {
+export default function index({grade}) {
   const router = useRouter()
   const  pid  = Object.values(router.query)
   return(

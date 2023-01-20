@@ -22,7 +22,7 @@ import Footer from "../../components/Footer/Footer";
 import styles from "./Highschool.module.scss"
 import { push } from 'firebase/database';
 //sh
-export default function hi({grade}) {
+export default function grade({grade}) {
   const router = useRouter()
   const  pid  = Object.values(router.query)
   console.log(grade.divisions)

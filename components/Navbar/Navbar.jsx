@@ -6,7 +6,7 @@ import NavLogo from "./Logo/NavLogo";
 import {db} from "../../firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
-import { once, onValue } from 'firebase/database';
+import { once, onValue } from "firebase/database";
 
 export default function Navbar() {
   let [data, setNewData] = useState()
@@ -179,7 +179,6 @@ export default function Navbar() {
             <img src="http://localhost:3000/file.svg" alt="" />
             </div>
             </div>
-            <script src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
             <h1>hhh</h1>
 

@@ -21,7 +21,7 @@ export default function Footer(){
             </div>
             <div className={styles.rightFooter}>
                 <h1>About Us</h1>
-                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s .</h3>
             </div>
         </div>
         <div className={styles.bottomFooter}>

@@ -20,7 +20,7 @@ export default function NavDropDown(props) {
 }//${props.color === "purple" ? "#EB79FE"}
  const list = grades.map((grade)  => (
   
-  <li className={`${styles.dropDown} ${props.color === "purple" ? styles.purpleBackground : props.color === "orange" ? styles.orangeBackground : props.color === "green" && styles.greenBackground}`} onClick={() => handleClick(grade.link)}>{grade.grade}
+  <li key={grade.grade} className={`${styles.dropDown} ${props.color === "purple" ? styles.purpleBackground : props.color === "orange" ? styles.orangeBackground : props.color === "green" && styles.greenBackground}`} onClick={() => handleClick(grade.link)}>{grade.grade}
   <div className={styles.dropdown_Right}>
 
   <img className={styles.gradeImg} src={grade.logo} alt="" width={"20"} />

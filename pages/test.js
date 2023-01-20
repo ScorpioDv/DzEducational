@@ -397,9 +397,7 @@ console.log(arrayOfIds);*/
         type="file"
         onChange={pickedHandler}
       />
-      {todos ? Object.values(todos).map(todo => (
-        <h1>{todo.todo}</h1>
-      )) : <h1>no todosssa</h1>}
+     
     </div>
   )
 }
