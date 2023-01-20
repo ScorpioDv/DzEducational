@@ -20,7 +20,7 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./PrimarySub.module.scss";*/
 //sh
-export default function stage({grade}) {
+export default function Stage({grade}) {
   const router = useRouter()
   const  pid  = Object.values(router.query)
   return(

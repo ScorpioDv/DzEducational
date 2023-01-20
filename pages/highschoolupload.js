@@ -1,5 +1,5 @@
 
-import {db} from "../firebase"
+import {db} from "../Firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
@@ -10,7 +10,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { storage } from "../firebase";
+import { storage } from "../Firebase";
 import { v4 } from "uuid";
 import { useState,useEffect } from "react";
 import uid from "uid"

@@ -37,12 +37,7 @@ export default function Sujet(props){
 
 
 
-      let obj = {
-        shit:"shit",
-        ass:"ahhh",
 
-      }
-      obj["key3"] = "value3";
 
       console.log(obj)
     return(

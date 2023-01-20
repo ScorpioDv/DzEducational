@@ -20,10 +20,10 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./PrimarySub.module.scss";
 import { onValue } from 'firebase/database';
-import {db} from '../../firebase'
+import {db} from '../../Firebase'
 import { ref as Ref } from 'firebase/database';
 //sh
-export default function grade({grade}) {
+export default function Grade({grade}) {
   const router = useRouter()
   const  pid  = Object.values(router.query)
   let [data, setNewData] = useState()

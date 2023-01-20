@@ -15,7 +15,7 @@ import RandomSaying from "../../../../../components/RandomSaying/RandomSaying";
 import SocialMedia from "../../../../../components/SocialMedia/SocialMedia";
 import Footer from "../../../../../components/Footer/Footer";
 import {useEffect} from "react"
-import {db} from "../../../../../firebase"
+import {db} from "../../../../../Firebase"
 import {set} from "firebase/database"
 import {ref} from "firebase/database" 
 import { once, onValue } from 'firebase/database';
@@ -26,7 +26,7 @@ import 'firebase/database';
 import { Document, Page } from 'react-pdf';
 import pdfjs from 'pdfjs-dist';
 import Timer from '../../../../../components/Timer/Timer'
-import Sujet from '../../../../../components/sujet/sujet';
+import Sujet from '../../../../../components/Sujet/Sujet';
 
 export default function Subject({ grade, subject }) {
   let [data, setNewData] = useState()
