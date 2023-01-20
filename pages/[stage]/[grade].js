@@ -20,7 +20,7 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./PrimarySub.module.scss";
 import { onValue } from 'firebase/database';
-import {db} from '../../Firebase'
+import {db} from '../..Firebase'
 import { ref as Ref } from 'firebase/database';
 //sh
 export default function Grade({grade}) {
@@ -87,7 +87,7 @@ export default function Grade({grade}) {
 export async function getStaticProps(context){
   const id = context.params.grade;
   console.log(id + " hey")  
-  const grade = await fetch("http://localhost:3000/api/grades/" + id).then(res => res.json())
+  const grade = await fetch("/api/grades/" + id).then(res => res.json())
 
   return{
     props:{
@@ -97,7 +97,7 @@ export async function getStaticProps(context){
 }
 
 export async function getStaticPaths(){
-  const grades = await fetch("http://localhost:3000/api/grades").then(res => res.json())
+  const grades = await fetch("/api/grades").then(res => res.json())
   return{
     paths: grades.map(grade => {
       return{

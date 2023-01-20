@@ -74,7 +74,7 @@ export default function Grade({grade}) {
 export async function getStaticProps(context){
   const id = context.params.grade;
   console.log(id + " hey")  
-  const grade = await fetch("http://localhost:3000/api/highschoolgrades/" + id).then(res => res.json())
+  const grade = await fetch("/api/highschoolgrades/" + id).then(res => res.json())
 
   return{
     props:{
@@ -85,7 +85,7 @@ export async function getStaticProps(context){
 
 export async function getStaticPaths(){
   console.log("sh")
-  const grades = await fetch("http://localhost:3000/api/highschoolgrades").then(res => res.json())
+  const grades = await fetch("/api/highschoolgrades").then(res => res.json())
   return{
     paths: grades.map(grade => {
       return{

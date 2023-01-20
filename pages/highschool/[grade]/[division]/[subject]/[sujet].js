@@ -15,7 +15,7 @@ import RandomSaying from "../../../../../components/RandomSaying/RandomSaying";
 import SocialMedia from "../../../../../components/SocialMedia/SocialMedia";
 import Footer from "../../../../../components/Footer/Footer";
 import {useEffect} from "react"
-import {db} from "../../../../../Firebase"
+import {db} from "../../../../..Firebase"
 import {set} from "firebase/database"
 import {ref} from "firebase/database" 
 import { once, onValue } from 'firebase/database';
@@ -66,7 +66,7 @@ return (
 }
 export async function getStaticProps(context) {
   const id = context.params.grade;
-  const grade = await fetch(`http://localhost:3000/api/highschoolgrades/${id}`).then(res => res.json());
+  const grade = await fetch(`/api/highschoolgrades/${id}`).then(res => res.json());
 
   return {
     props: {
@@ -77,8 +77,8 @@ export async function getStaticProps(context) {
 export async function getStaticPaths(context) {
     // Get the previous route params
   
-  const grades = await fetch('http://localhost:3000/api/highschoolgrades').then(res => res.json());
-  const data = await fetch('http://localhost:3000/api/sujets').then(res => res.json());
+  const grades = await fetch('/api/highschoolgrades').then(res => res.json());
+  const data = await fetch('/api/sujets').then(res => res.json());
   const paths = [];
  // console.log(data.sujets)
 

@@ -15,7 +15,7 @@ import RandomSaying from "../../../components/RandomSaying/RandomSaying";
 import SocialMedia from "../../../components/SocialMedia/SocialMedia";
 import Footer from "../../../components/Footer/Footer";
 import {useEffect} from "react"
-import {db} from "../../../firebase"
+import {db} from "../../..Firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
@@ -62,7 +62,7 @@ export default function Subject({ grade, divisions , subjects}) {
 export async function getStaticProps(context) {
   const id = context.params.grade;
   const divisions = context.params.division;
-  const grade = await fetch(`http://localhost:3000/api/highschoolgrades/${id}`).then(res => res.json());
+  const grade = await fetch(`/api/highschoolgrades/${id}`).then(res => res.json());
   const division = grade.divisions.find(item => item.name === divisions)
   return {
     props: {
@@ -85,7 +85,7 @@ export async function getStaticProps(context) {
           </div>*/
 
 export async function getStaticPaths() {
-  const grades = await fetch('http://localhost:3000/api/highschoolgrades').then(res => res.json());
+  const grades = await fetch('/api/highschoolgrades').then(res => res.json());
   const paths = [];
 
   grades.forEach(grade => {

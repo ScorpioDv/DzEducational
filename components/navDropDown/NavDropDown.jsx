@@ -1,5 +1,4 @@
-import arrow from "../../../public/AHHHH.svg"
-import styles from "./navDropDown.module.scss";
+import styles from "./NavDropDown.module.scss";
 import { useState } from "react";
 import Router from 'next/router'
 
