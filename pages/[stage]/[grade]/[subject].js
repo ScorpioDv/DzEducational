@@ -20,7 +20,7 @@ import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
 import {grades} from "../../../data/grades"
-
+import {server} from "../../../config"
 export default function Subject({ grade, subject }) {
   let [data, setNewData] = useState()
   useEffect(() => {
@@ -56,7 +56,7 @@ export default function Subject({ grade, subject }) {
 }
 export async function getStaticProps(context) {
   const id = context.params.grade;
-  const grade = await fetch(`/api/grades/${id}`).then(res => res.json());
+  const grade = await fetch(server+`/api/grades/${id}`).then(res => res.json());
 
   return {
     props: {
@@ -66,7 +66,7 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const gradesa = await fetch('/api/grades').then(res => res.json());
+  const gradesa = await fetch(server+'/api/grades').then(res => res.json());
   const paths = [];
   grades.forEach(grade => {
     grade.subjects.forEach(subject => {

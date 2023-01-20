@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { Router } from 'next/router';
 import { useState } from 'react';
  import React from 'react'
+ import {server} from '../../config'
 /*
 //sh
 import React from "react";
@@ -35,7 +36,7 @@ export default function Index({grade}) {
 export async function getStaticProps(context){
   const id = context.params.grade;
   console.log(id + " hey")  
-  const grade = await fetch("/api/highschool").then(res => res.json())
+  const grade = await fetch(server+"/api/highschool").then(res => res.json())
 
   return{
     props:{
@@ -45,7 +46,7 @@ export async function getStaticProps(context){
 }
 
 export async function getStaticPaths(){
-  const grades = await fetch("/api/highschool").then(res => res.json())
+  const grades = await fetch(server+"/api/highschool").then(res => res.json())
   return{
     paths: grades.map(grade => {
       return{

@@ -21,6 +21,7 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./Highschool.module.scss"
 import { push } from 'firebase/database';
+import {server } from '../../config'
 //sh
 export default function Grade({grade}) {
   const router = useRouter()
@@ -74,7 +75,7 @@ export default function Grade({grade}) {
 export async function getStaticProps(context){
   const id = context.params.grade;
   console.log(id + " hey")  
-  const grade = await fetch("/api/highschoolgrades/" + id).then(res => res.json())
+  const grade = await fetch(server+"/api/highschoolgrades/" + id).then(res => res.json())
 
   return{
     props:{
@@ -85,7 +86,7 @@ export async function getStaticProps(context){
 
 export async function getStaticPaths(){
   console.log("sh")
-  const grades = await fetch("/api/highschoolgrades").then(res => res.json())
+  const grades = await fetch(server+"/api/highschoolgrades").then(res => res.json())
   return{
     paths: grades.map(grade => {
       return{

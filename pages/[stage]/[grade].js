@@ -23,6 +23,7 @@ import { onValue } from 'firebase/database';
 import {db} from '../../Firebase'
 import { ref as Ref } from 'firebase/database';
 import {grades} from "../../data/grades"
+import {server} from '../../config'
 //sh
 export default function Grade({grade}) {
   const router = useRouter()
@@ -88,7 +89,7 @@ export default function Grade({grade}) {
 export async function getStaticProps(context){
   const id = context.params.grade;
   console.log(id + " hey")  
-  const grade = await fetch("/api/grades/" + id).then(res => res.json())
+  const grade = await fetch(server+"/api/grades/" + id).then(res => res.json())
 
   return{
     props:{
@@ -98,7 +99,7 @@ export async function getStaticProps(context){
 }
 
 export async function getStaticPaths(){
-  const grades = await fetch("/api/grades").then(res => res.json())
+  const grades = await fetch(server+"/api/grades").then(res => res.json())
   return{
     paths: grades.map(grade => {
       return{

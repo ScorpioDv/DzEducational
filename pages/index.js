@@ -14,8 +14,11 @@ import SocialMedia from '../components/SocialMedia/SocialMedia'
 import Footer from '../components/Footer/Footer'
 import 'firebase/database'
 import {grades} from "../data/grades"
+import { server } from '../config';
+
 export default function Home() {
   console.log(grades)
+  console.log(server)
   return (
     <>
     <Navbar/>

@@ -256,7 +256,7 @@ console.log(arrayOfIds);*/
         setNameAv({
           year: pickedFile.name.split("_")[1],
           solution: true,
-        })
+        })  
         setTodo(prev => ({
           ...prev,
           SubjectYear: pickedFile.name.split("_")[1],

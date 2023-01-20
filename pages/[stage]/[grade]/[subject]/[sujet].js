@@ -27,7 +27,7 @@ import { Document, Page } from 'react-pdf';
 import pdfjs from 'pdfjs-dist';
 import Timer from '../../../../components/Timer/Timer'
 import Sujet from '../../../../components/Sujet/Sujet';
-
+import {server} from '../../../../config'
 import FacebookComments from '../../../../components/FacebookComments/FaceboookComments'
 
 export default function Subject({ grade, subject, url}) {
@@ -74,7 +74,7 @@ export default function Subject({ grade, subject, url}) {
 }
 export async function getStaticProps(context) {
   const id = context.params.grade;
-  const grade = await fetch(`/api/grades/${id}`).then(res => res.json());
+  const grade = await fetch(`${server}/api/grades/${id}`).then(res => res.json());
 
   return {
     props: {
@@ -85,8 +85,8 @@ export async function getStaticProps(context) {
 export async function getStaticPaths(context) {
     // Get the previous route params
   
-  const grades = await fetch('/api/grades').then(res => res.json());
-  const data = await fetch('/api/sujets').then(res => res.json());
+  const grades = await fetch(server+'/api/grades').then(res => res.json());
+  const data = await fetch(server+'/api/sujets').then(res => res.json());
   const paths = [];
   
   grades.forEach(grade => {

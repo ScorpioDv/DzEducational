@@ -27,6 +27,7 @@ import { Document, Page } from 'react-pdf';
 import pdfjs from 'pdfjs-dist';
 import Timer from '../../../../../components/Timer/Timer'
 import Sujet from '../../../../../components/Sujet/Sujet';
+import { server } from '../../../../../config';
 
 export default function Subject({ grade, subject }) {
   let [data, setNewData] = useState()
@@ -66,7 +67,7 @@ return (
 }
 export async function getStaticProps(context) {
   const id = context.params.grade;
-  const grade = await fetch(`/api/highschoolgrades/${id}`).then(res => res.json());
+  const grade = await fetch(`${server}/api/highschoolgrades/${id}`).then(res => res.json());
 
   return {
     props: {
@@ -77,8 +78,8 @@ export async function getStaticProps(context) {
 export async function getStaticPaths(context) {
     // Get the previous route params
   
-  const grades = await fetch('/api/highschoolgrades').then(res => res.json());
-  const data = await fetch('/api/sujets').then(res => res.json());
+  const grades = await fetch(server+'/api/highschoolgrades').then(res => res.json());
+  const data = await fetch(server+'/api/sujets').then(res => res.json());
   const paths = [];
  // console.log(data.sujets)
 

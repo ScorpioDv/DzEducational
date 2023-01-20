@@ -20,6 +20,7 @@ import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
 import styles from "../Highschool.module.scss"
+import {server} from "../../../config"
 export default function Subject({ grade, divisions , subjects}) {
   let [data, setNewData] = useState()
   useEffect(() => {
@@ -62,7 +63,7 @@ export default function Subject({ grade, divisions , subjects}) {
 export async function getStaticProps(context) {
   const id = context.params.grade;
   const divisions = context.params.division;
-  const grade = await fetch(`/api/highschoolgrades/${id}`).then(res => res.json());
+  const grade = await fetch(`${server}/api/highschoolgrades/${id}`).then(res => res.json());
   const division = grade.divisions.find(item => item.name === divisions)
   return {
     props: {
@@ -85,7 +86,7 @@ export async function getStaticProps(context) {
           </div>*/
 
 export async function getStaticPaths() {
-  const grades = await fetch('/api/highschoolgrades').then(res => res.json());
+  const grades = await fetch(server+'/api/highschoolgrades').then(res => res.json());
   const paths = [];
 
   grades.forEach(grade => {
