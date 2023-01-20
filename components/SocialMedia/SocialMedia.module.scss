@@ -1,0 +1,55 @@
+.SocialMediaContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    .SocialMedia{
+        width: 200px;
+        height: 125px;    
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px 15px 0 0;
+     
+        img{
+
+        }
+        h1{
+
+        }
+        .Gradiant_txt{
+            background-image: linear-gradient(rgba(0, 0, 0, 0), #0b1817);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+        }
+    }
+    .Telegram{
+        background-image: linear-gradient(#1CFAFA,#1F99B4);
+    }
+    .Discord{
+        background-image: linear-gradient(#4209E1,#6125DF);
+
+    }
+    .Instagram{
+        background-image: linear-gradient(#FF8A00,#B41FA5);
+
+    }
+    .Facebook{
+        background-image: linear-gradient(#0558FA,#1D43A6);
+
+    }
+    .Twitter{
+        background-image: linear-gradient(#34e4e4,#077992);
+
+    }
+    .Whatsapp{
+        background-image: linear-gradient(#39E24A,#22B41F);
+
+    }
+}

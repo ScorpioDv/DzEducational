@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dzeducation",
+  "private_key_id": "23c11cb253524e96d7923cc5c727f0939faec678",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1z7QJdpbzoYSG\nOVFEqAXwiU3Jx4WNeEVU4igFdCrCzGeSFlsFCFlgABWHnHwWb19zllzNb+ogwEg+\ni8DnkLvu0kqUBB2ewx2H6C5kpQZOYLAWF0RSQHb1s2AF6O0ABGyWiXWMffdGyuEq\nUD7jbyafNQ5Y08WyXmn5gdWooxqOrCaVN8DdWgViE55u7sG6ZGjuAcG9gmIk9vzB\nISjxVFXh6NipSgntSpt/FIgYZe6HzI01SCdebnlRXbV8jUApRqb9nBkumwwkfJqD\nvsgbeSfjuLajzfArrfyXcQRhk/kznOXXqXqThpd7ekVrtcTVVcKclPunhptTUcfC\np6VxfjRlAgMBAAECggEADMFzyi4tzQ4J9DjVQNHhCM05TezXq+NCSgBL+oX58gzR\nP2ieHi5Fxvx6hjcuZYyOz9c+z5MIhB+5cdnwQM7gwJK0dMoNIfRigASELL9/P8R8\n1i/vtS2cqwRYulFrP1MQI0elnaPA05CsV4Glx+MmfIkGZqkE98yz9rNrQBehZ10C\nWbFGgRhmSkCDuLETeXzBGac+UD3y0pDXIjWaxooEgQvd0lQEl5ROMwtj/0SPYyCX\nRfr59TK7tACQilivR4q83sTIDDJEVn+DzZ6IxHyLkYdevsRmoTFeuoVRIg/5VtJs\nKoVBrKHSfvUE9UZBaxOkhLSr6vFF+bI142mKghOEiQKBgQDaNUb85Exc9vNCuHw2\nRGZhYXwWOoXNRfKbNujFVIyQ+ANNuH8jbxdXL/RniixYCMp72yJrTG+U7WXdVrYl\nzpYSrQdyX99acFzT8dwW8GorFK5y91Yt9I+LbIR9xsx+E+oB7N1Ost0jJ3T48YoR\n/Qz/IR/SFwgUTXKl1yvsG5bH6wKBgQDVTLKCJIq9wwzffLjpE8Q0ZsEiWo0O4plj\nQ1vbFf/VOSjAYQuLikmpOxrV6Z1Sz6DyJD0fRqCGs66LQ4DTTG+GwdiIBQ5JxNXS\nFmBjRpnXY93RwI8QoVl2oUoU1i4R9mZyge91mWyXzmyjiepLxPYNESkvYFLTd+Lx\nDpdYCNiw7wKBgQDXdTnV5Xq9ZJ4IKG+Fif5pcz96F2kcqk+GES7AAd8WGb3xVRY8\nn6m1TkWOovFsL6n3qAWRWxTmQY6Ogdsy84xdfnpW5fF9tGsEX9FI2TSLu00RecWf\ndNbz/T/Jja1HZFRweDiBR71ww7oNQTpqzqmxlTx9Tn6MxXhJ5m+ZIBi+5wKBgFZE\ngOYV9W8uViSFgxvxfKdc77v/N5HPoA3/jkUbrq8EQTEdjtfPBF/HoeDmbVSy2PtW\nIMpnfEE+ptd4Y8AR6AFuoS7SLKc1Tu17U1yTj2EH6Q0Ofk5Rk6dhMF8hCN0G9QRW\n/QxpEvyK5nF2NCaU8Jb0W93nbVhN4qFwL1HRsiJNAoGAB+hgUW6tNyEaUIDV/xej\nyBNWqk7PcukcMdGi7V5lBdt0PN/joeEfVCWEt5mT/1iaBtqfV3ogyT1A1R2R7/85\nLPwnuq7uYPBH9cWmmMPPDs0zcBZMrDKFa/939aBVzNmNtNvumoUXNRDXQ5AShZGA\nAquPgRbSnDrnxsN5swdSKns=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dzeducation-upload@dzeducation.iam.gserviceaccount.com",
+  "client_id": "114507941331738038889",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dzeducation-upload%40dzeducation.iam.gserviceaccount.com"
+}
+ 

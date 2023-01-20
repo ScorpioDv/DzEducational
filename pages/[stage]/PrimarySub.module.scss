@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+.body{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .subjectContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        margin: 120px;
+        @media screen and (max-width: "800px") {
+            &{
+                grid-template-columns: repeat(1, 1fr) !important;
+            }
+        }
+        @media screen and (max-width: "1550px"){
+            &{
+                grid-template-columns: repeat(2, 3fr) ;
+            }
+        }
+    }
+}
+.layer{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: red;
+    z-index: 1;
+}
+.subjectHeaders{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.subjectHeader{
+    color: white;
+    font-weight: 700;
+    box-shadow: rgba(10, 122, 233, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+    &:first-child{
+        padding: 20px;  
+        border-radius: 15px 15px 0px 0px;
+        background-color: #99ECF8;
+        width: 100%;
+        &:hover{
+            background-color: #b2e7f0;
+        }
+        &:active{
+            background-color: #52c5d6;
+
+        }
+    }
+    &:last-child{
+        padding: 20px;  
+        background-color: #6fcddb;
+        border-radius: 0px 0px 15px 15px;
+        width: 100%;
+        font-size: 18px;
+        &:hover{
+            background-color: #8fe1ee;
+
+        }
+        &:active{
+            background-color: #66b6c2;
+
+        }
+    }
+}

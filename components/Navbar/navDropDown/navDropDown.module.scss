@@ -1,0 +1,188 @@
+.line{
+  width: 100px;
+  top: 40px;
+  margin-right: 80px;
+  height: 1px;
+  border-radius: 5px;
+  padding: 2px;
+  position: absolute;
+  justify-self: center;
+ }
+
+.gradeImg{
+}
+
+.gradename{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.grades{
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+}
+.hypes{
+  position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    top: 50px;
+    z-index: 1;
+    border-radius: 0px 0px 15px 15px;
+  
+    ul{
+      margin: 0;
+      padding-left: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+ 
+    }
+    .dropDown{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 150px;
+      &:first-child{
+        padding-top: 8px;
+      }
+      &:last-child{
+        border-radius: 0px 0px 15px 15px;
+        padding-bottom: 8px;
+      }
+      padding-left: 10px;
+      padding: 8px;
+      text-decoration: none;
+      list-style: none;
+      font-weight: 700;
+      text-align: left;
+      background-color: #F6FAF9;
+      color: #093372;
+      transition: all ease-in-out .5s;
+
+      &:hover{
+        background-color: #848b8ae0;
+        transition: all ease-in-out .5s;
+      }
+    }
+
+  }
+  .dropdown_Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+  }
+  .number_sub_dropdown{
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: 600;
+background-color: #79FEBE;
+padding: 1px;
+border-radius: 25px;
+//text-shadow: 0 -1px 4px #79FEBE, 0 -2px 8px #79FEBE, 0 -10px 8px #79FEBE, 0 -18px 20px #79FEBE, 3px 5px 10px #79FEBE, 3px 5px 10px #79FEBE,  3px 5px 10px #79FEBE,  3px 5px 10px #79FEBE,  3px 5px 10px #79FEBE;
+  }
+  .number_sub{
+  /*  -webkit-backdrop-filter: blur(8px);
+    margin-left: 10px;
+    backdrop-filter: blur(1px);
+    
+width: 46px;
+height: 19px;
+left: 980px;
+top: 20px;
+filter: drop-shadow(0px 4px 2px rgb(19, 233, 179),);*/
+//background-image: url("../../../public/ASSSSSSS.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: 600;
+padding: 8px;
+
+  }
+  .purpleBackground{
+    &:last-child{
+      background-color: #EB79FE !important;
+      &:hover{
+        background-color: #eeaafa !important;
+
+      }
+      .gradeImg{
+        width: 35px;
+      }
+    }
+  }
+  .greenBackground{
+    &:last-child{
+      background-color: #79FEBE !important;
+      &:hover{
+        background-color: #bcfcdd !important;
+
+      }
+      .gradeImg{
+        width: 35px;
+      }
+    }
+  }
+  .orangeBackground{
+    &:last-child{
+      background-color: #FEC179 !important;
+      &:hover{
+        background-color: #ffd8ab !important;
+
+      }
+      .gradeImg{
+        width: 35px;
+      }
+    }
+  }
+  .purple{
+    text-shadow: 0 -1px 4px #EB79FE, 0 -2px 8px #EB79FE, 0 -10px 8px #EB79FE, 0 -18px 20px #EB79FE, 3px 5px 10px #EB79FE, 3px 5px 10px #EB79FE,  3px 5px 10px #EB79FE,  3px 5px 10px #EB79FE,  3px 5px 10px #EB79FE;;
+  
+  }
+  .orange{
+    text-shadow: 0 -1px 4px #FEC179, 0 -2px 8px #FEC179, 0 -10px 8px #FEC179, 0 -18px 20px #FEC179, 3px 5px 10px #FEC179, 3px 5px 10px #FEC179,  3px 5px 10px #FEC179,  3px 5px 10px #FEC179,  3px 5px 10px #FEC179;;
+
+  }
+  .green{
+    text-shadow: 0 -1px 4px #79FEBE, 0 -2px 8px #79FEBE, 0 -10px 8px #79FEBE, 0 -18px 20px #79FEBE, 3px 5px 10px #79FEBE, 3px 5px 10px #79FEBE,  3px 5px 10px #79FEBE,  3px 5px 10px #79FEBE,  3px 5px 10px #79FEBE;;
+
+  }
+  .gradecontainer{
+    display: flex;
+    flex-direction: row;
+    bottom: -10px;
+  } 
+  @keyframes example{
+    0% {
+      opacity: 0;
+      transform: rotateX(-90deg);
+  }
+  50% {
+      transform: rotateX(-20deg);
+  }
+  100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+  }
+  }
+
+
+  .on{
+    animation-name: example;
+    animation-duration: .5s;
+  }
+  .off{
+    display: none;
+  }

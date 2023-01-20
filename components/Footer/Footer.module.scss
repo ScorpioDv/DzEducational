@@ -1,0 +1,77 @@
+.Footer{
+    background-image: url("http://localhost:3000/FooterBackground.svg");
+    background-color: #182F5D;
+    background-repeat: no-repeat;
+    background-clip: cover;
+    background-clip: cover;
+    background-size: cover;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+
+    .upperFooter{
+        position: relative;
+        top: 130px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20%;
+        
+        .rightFooter{
+            width: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+
+            h1{
+                color: white;
+            }
+            h3{
+                color: rgba(255, 255, 255, 0.699);
+
+            }
+        }
+        .leftFooter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            div{
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+            }
+            h1{
+                color: white;
+            }
+            h3{
+                color: rgba(255, 255, 255, 0.699);
+
+            }
+        }
+    }
+    .bottomFooter{
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        h1{
+            color: white;
+        }
+        .Socials{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-bottom: 10px;
+        }
+    }
+}
+.algeriaFlag{
+    position: absolute;
+    bottom: 0;
+}

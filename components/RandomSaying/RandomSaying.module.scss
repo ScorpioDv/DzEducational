@@ -1,0 +1,18 @@
+.sayingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .saying{
+        background-color: #99ECF8;
+        border: #0C69F3 5px solid;
+        border-radius: 15px;
+        padding: 13px;
+        width: 75%;
+        h3{
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}

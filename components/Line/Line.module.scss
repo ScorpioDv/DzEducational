@@ -1,0 +1,14 @@
+.lineParent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        .line{
+            margin-top: 50px;
+            width: 50%;
+            align-self: center;
+            height: 10px;
+            background-color: #41cbee;
+            border-radius: 25px;
+        
+    }
+}

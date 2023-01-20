@@ -1,0 +1,41 @@
+.theme{         
+    height: 50px;
+    width: 50px;
+    stroke: black;
+    stroke-width: 3px;
+}
+.themes{
+    margin-top: 20px;
+    gap: 10px;
+    
+    .theme{
+        height: 50px;
+        width: 50px;  
+        border: 3px black solid;  
+        cursor: pointer;
+    }
+
+
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    .header__button{
+        padding: 20px;
+        background-color: #99ECF8;
+        border-right: #07d2ec 20px solid;
+        box-shadow: rgba(10, 122, 233, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 10px 15px 15px 10px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+    }
+}

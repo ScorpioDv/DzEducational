@@ -1,0 +1,153 @@
+.bank__channels{
+    flex-wrap: wrap;
+    flex: 0 1 200px; /* Positive flex-shrink */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .channel{
+        background-color: #99ECF8;
+       // padding: 25px;
+       padding: 10px;
+        padding-bottom:20px;
+        padding-right: 20px;
+        padding-left: 10px;
+        border-radius: 15px;
+        position: relative;
+        margin: 20px;
+        width: 25%;
+        max-width: 350px;
+        min-width: calc(25% * 0 + 300px);
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        box-shadow: rgba(10, 122, 233, 0.35) 0px -2px 6px 0px inset;
+        cursor: pointer;
+        min-width: 300px;
+
+        .hero{
+        //margin-top: 10px;
+                  
+        }
+        img{
+            width: 93px;
+            height: 93px;
+            border-radius: 50%;
+            position: relative;
+            bottom: -15px;
+
+        }
+        .channel__subject__type{
+            color: #093372            ;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 14px;
+            text-align: center;
+
+        }
+        .channel__description{
+            color: #093372            ;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            text-align: center;
+        }
+        &:nth-child(2){
+            .channel__backlayer{
+                min-width: calc(25% * 0 + 300px);
+                max-width: calc( 25% * 0 + 450px);
+                width: 100%;
+                border-radius: 15px;
+                transform: rotate(-178.3deg);
+                height: 150px;
+                background-color: #db7fff;
+                position: absolute;
+                bottom:-5px;
+                z-index: -5;
+                transition: .2s all ease-in;
+                box-shadow: #8a2eaf 0px -2px 6px 0px inset;
+            
+            }
+        }
+        &:first-child{
+            .channel__backlayer{
+                min-width: calc(25% * 0 + 300px);
+                max-width: calc( 25% * 0 + 450px);
+                width: 100%;
+                border-radius: 15px;
+                transform: rotate(-178.3deg);
+                height: 150px;
+                background-color: #79FEBE;
+                position: absolute;
+                bottom:-5px;
+                z-index: -5;
+                transition: .2s all ease-in;
+                box-shadow: rgba(10, 122, 233, 0.35) 0px -2px 6px 0px inset;
+            
+            }
+        }
+        &:last-child{
+            .channel__backlayer{
+                min-width: calc(25% * 0 + 300px);
+                max-width: calc( 25% * 0 + 450px);
+                width: 100%;
+                border-radius: 15px;
+                transform: rotate(-178.3deg);
+                height: 150px;
+                background-color: #FEC179;
+                position: absolute;
+                bottom:-5px;
+                z-index: -5;
+                transition: .2s all ease-in;
+                box-shadow: rgba(233, 136, 10, 0.644) 0px -2px 6px 0px inset;
+            
+            }
+        }
+       
+        .channel__text{
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+
+        }
+        &:hover{
+          
+                &:first-child{
+                    .channel__backlayer{
+
+                    transform: rotate(-175.3deg);
+                    transition: .2s all ease-in;
+                    background-color: #60f5ad;
+                    width: 100%;
+                    bottom:5px;
+                    }
+                }
+                &:nth-child(2){
+                    .channel__backlayer{
+
+                    transform: rotate(-175.3deg);
+                    transition: .2s all ease-in;
+                    background-color: #b53ce6;
+                    width: 100%;
+                    bottom:5px;
+                    }
+                }
+                &:last-child{
+                    .channel__backlayer{
+
+                    transform: rotate(-175.3deg);
+                    transition: .2s all ease-in;
+                    background-color: #FEC179 ;
+                    width: 100%;
+                    bottom:5px;
+                    
+                }
+            }  
+           
+        }
+
+
+    }
+}

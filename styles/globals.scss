@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+body{
+  background-image: url(../public/images/Sprinkle.svg);
+  font-family: Inter, sans-serif;
+  background-attachment:fixed;
+}
+*{
+  -webkit-user-drag: none;
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.hero{
+  text-align: center;
+  text-shadow: 1px 1px 0px rgb(21, 25, 28), 1px 0px 0px rgb(21, 25, 28), 1px px 0px rgb(21, 25, 28), 1px 5px 0px rgb(21, 25, 28), 1px 2px 0px rgb(21, 25, 28), 1px 1px 0px rgb(21, 25, 28);
+
+}
+.red__txt{
+  color: #FE4E4E;
+}
+.purple__txt{
+  color: #4E60FE;
+}
+.blue__txt{
+  color: #1C73F5;
+}
+.green_txt{
+  color: #6fdaa6;
+}
+.button{
+  padding: 10px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #093372;
+  box-shadow: rgba(0, 0, 0, 0.377) 0px 5px 5px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.fb-comments {
+  display: block;
+}
+.hide{
+  display: none;
+
+}
+
+.unhide{
+  display: block;
+}
+.red{
+  background-color: #FE4E4E;
+}
+.purple{
+  background-color: #4E60FE;
+}
+.blue{
+  background-color: #1C73F5;
+}
+.circle{
+  border-radius: 50%;
+}
+
+
+.hero{
+  text-align: center;
+  text-shadow: 1px 1px 0px rgb(21, 25, 28), 1px 1px 0px rgb(21, 25, 28), 1px 2px 0px rgb(21, 25, 28), 1px 5px 0px rgb(21, 25, 28), 1px 2px 0px rgb(21, 25, 28), 1px 1px 0px rgb(21, 25, 28);
+
+}
+.test{
+  width: 100px;
+  height: 100px;
+
+}
+.number{
+  position: abolute;
+  top: 50%;
+  background-image: url("../public/ASSSSSSS.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  background-size: contain;
+  padding: 2px;
+}
+.blurs{
+  background-color: #093372;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.hero{
+  text-align: center;
+  text-shadow: 1px 1px 0px rgb(21, 25, 28), 1px 1px 0px rgb(21, 25, 28), 1px 2px 0px rgb(21, 25, 28), 1px 5px 0px rgb(21, 25, 28), 1px 2px 0px rgb(21, 25, 28), 1px 1px 0px rgb(21, 25, 28);
+
+}
+.red__txt{
+  color: #FE4E4E;
+}
+.purple__txt{
+  color: #4E60FE;
+}
+.blue__txt{
+  color: #1C73F5;
+}
+.green_txt{
+  color: #6fdaa6;
+}
+.purple_txt{
+  color: #d853f0;
+}
+.orange_txt{
+  color: #f3ae5f;
+}
+
+.green{
+  background-color: #6fdaa6
+}
+.purple{
+  background-color: #EB79FE;
+}
+.orange{
+  background-color: #FEC179;
+}
+.button{
+  padding: 10px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #093372;
+  box-shadow: rgba(0, 0, 0, 0.377) 0px 5px 5px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+
+}
+.grade{
+  background-color: #EDFFFA;
+}
+.green{
+  background-color: #79FEBE;
+}
+.examn{
+  margin-top: 25px;
+  font-size: 19px;
+}
+.examn:hover{
+  background-color: #6fdaa6;
+}
+
+.grade:hover{
+  background-color: #dce7e3;
+
+}
+.gradeImg{
+  border: 25px 25px 0px 0px;
+  z-index: 2;
+  transition: all .5s ease-in-out;
+
+}
+.gradeImg:hover{
+  object-fit: cover;
+  opacity: 0.4;
+} 
+
+.noSelect{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently*/
+}
+// New Ass
+
+button{
+  cursor: pointer;
+}
+
+body{
+  scroll-behavior: smooth;
+}

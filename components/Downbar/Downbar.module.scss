@@ -1,0 +1,26 @@
+.DownbarContainer{
+    .Downbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        top: 0;
+        position: sticky;
+
+        /**/
+
+        /* */
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background-image: url("http://localhost:3000/BackgroundDownbar.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}

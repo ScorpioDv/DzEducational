@@ -1,0 +1,226 @@
+
+.tirmsContainer{
+    margin-top: 3.5rem;
+}
+.tirmContainer{
+    margin: 10px;
+
+    .tirm{
+       // background-color: #4c8ae7;
+        padding: 20px;
+        font-weight: 700;
+        color: #093372;
+        border-right: #4886d1 60px solid;
+        border-radius: 15px 15px 0px 0px;
+        background-color: #99ECF8;
+        gap: 10px;
+        position: relative;
+        margin-right: 20px;
+        margin-left: 20px;
+        box-shadow: rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        display: flex;
+        justify-content: space-between;
+        transition: all ease-in-out .3s;
+    }
+    img{
+        width: 20px;
+        transition: all ease-in-out .3s;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .examsContainer{
+    
+    }
+    
+    .testsContainer{
+      
+    }
+}
+.lastChildBorder{
+    &:last-child {
+        border-radius: 0px 0px 15px 15px;
+    }
+}
+ .exams{
+    padding: 20px;
+    font-weight: 700;
+    color: #093372;
+    border-right: #4886d1 60px solid;
+    border-radius: 0 0px 0px 0px;
+    background-color: #60d0f1;
+    gap: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+@keyframes example{
+    0% {
+      opacity: 0;
+      transform: skew(1);
+    }
+  50% {
+}
+  100% {
+      opacity: 1;
+      transform: skew(1);
+    }
+  }
+
+.dropdownContainer{
+    animation-name: example;
+    animation-duration: .5s;
+}
+.exam{
+        padding: 20px;
+        height: 10px;
+        font-size: 10px;
+        color: #093372;
+        border-right: #dbe0df 60px solid;
+        border-radius: 0 0px 0px 0px;
+        background-color: #F6FAF9;
+        gap: 10px;
+        position: relative;
+        margin-right: 20px;
+        margin-left: 25px;
+        display: flex;
+        font-weight: 100;
+        align-items: center;
+        h1{
+            font-weight: 100;
+        }
+        justify-content: space-between;
+        .examDesc{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .solution{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-weight: 100;
+                }
+            }
+            .dificility{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                .dificilityPrefix{
+                    color: #093372;
+                    
+                }
+               .dificilityLevel{
+                    color: red;
+                }
+            }
+        }
+  
+}
+.testsDropdownContainer{
+    &:last-child{
+        .test{
+           &:last-child{
+            border-radius: 0px 0px 15px 15px;
+           }
+        }
+    }
+}
+.numArrowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+    .numberOfSujets{
+        background-image: url("../../public/Backgroundnum.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -50px;
+        padding: 8px;
+        background-position: center;
+        background-size: contain;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+.test{
+    padding: 20px;
+    height: 10px;
+    font-size: 10px;
+    color: #093372;
+    border-right: #dbe0df 60px solid;
+    border-radius: 0 0px 0px 0px;
+    background-color: #F6FAF9;
+    gap: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 25px;
+    display: flex;
+    font-weight: 100;
+    align-items: center;
+    h1{
+        font-weight: 100;
+    }
+    justify-content: space-between;
+    .testDesc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .solution{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-weight: 100;
+            }
+        }
+        .dificility{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .dificilityPrefix{
+                color: #093372;
+                
+            }
+           .dificilityLevel{
+                color: red;
+            }
+        }
+    }
+
+
+}
+.tests{
+    background-color: #3A78C5;
+    padding: 20px;
+    font-weight: 700;
+    color: #093372;
+    border-right: #4886d1b9 60px solid;
+    border-radius: 0 0px 15px 15px;
+    background-color: #60d0f1;
+    gap: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.hide{
+    display: none;
+}
+
+.testsDropdownContainer{
+
+}

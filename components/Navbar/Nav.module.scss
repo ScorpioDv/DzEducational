@@ -1,0 +1,220 @@
+
+.nav{
+    margin: 0;
+    background-color: #F6FAF9;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 96;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  
+    }
+  .NavDropDowns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto;
+  }
+  .DownbarContainer{
+    .Downbar{
+      position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        top: 880px;
+        right: 10px;
+        justify-self: center;
+        left: 0;
+        /**/
+
+        /* */
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background-image: url("http://localhost:3000/BackgroundDownbar.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            cursor: pointer;
+            &:hover{
+              transform: scale(1.3);
+            }
+            transition: all ease-in-out .4s;
+        }
+    }
+}
+
+@media screen and (max-width: "940px") {
+  .nav{
+
+    .NavDropDowns{
+      display: none;
+    }
+
+  }
+  
+}
+
+ /* .gradecontainer{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #093372;
+    position: relative;
+
+    .grades{
+      position: relative;
+      flex-direction: row;
+      align-self: center;
+      justify-self: center;
+
+      .number_sub{
+        -webkit-backdrop-filter: blur(8px);
+        margin-left: 10px;
+        backdrop-filter: blur(1px);
+        
+width: 46px;
+height: 19px;
+left: 980px;
+top: 20px;
+filter: drop-shadow(0px 4px 2px rgb(19, 233, 179),);
+      }
+    }
+  }
+  .contas{
+    display: flex;
+  }
+ 
+  .container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .hypes{
+    position: absolute;
+    background-color: #F6FAF9;
+    min-width: 160px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    top: 30px;
+    z-index: 1;
+    .hypesa{
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+      text-decoration: none;
+      list-style: none;
+    }
+  }
+  .gradecontainer{
+    display: flex;
+    flex-direction: row;
+    bottom: -10px;
+  } 
+  @keyframes example{
+    0% {
+      opacity: 0;
+      transform: rotateX(-90deg);
+  }
+  50% {
+      transform: rotateX(-20deg);
+  }
+  100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+  }
+  }
+
+
+  .on{
+    animation-name: example;
+    animation-duration: .5s;
+  }
+  .off{
+    display: none;
+  }
+  
+  /*
+  li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #093372;
+    position: relative;
+  
+  }
+  
+  li > .subject__number{
+    width: fit-content;
+    
+  }
+  li{
+    position: relative;
+   .line{
+    margin-top: 35px;
+    width: calc(100% - 40%);
+    margin-right: 80px;
+    height: 1px;
+    border-radius: 5px;
+    padding: 2px;
+    position: absolute;
+    background-color: rgba(235, 121, 254, 0.61);
+    justify-self: center;
+   }
+   &:after{
+    content: "";
+    border: rgba(235, 121, 254, 0.61) 2px solid;
+    width: calc(100% - 40%);
+    position: absolute;
+    background-color: rgba(235, 121, 254, 0.61);
+    bottom: 10px;
+    left: 1px;
+    border-radius: 20px;
+    filter: blur(.2px);
+  
+   }
+  }
+  .subject__number{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    p{
+        font-size: small;
+        color: white;
+        z-index: 2; 
+        position: relative;
+        text-align: center;
+    } 
+  
+    div{
+        background-color: #79FEBE;
+        padding: 3px;
+        border-radius: 35px;
+        filter: blur(4px);
+        position: absolute;
+        width: calc(100% + 20px);
+        height: 80%;
+        z-index: 1;
+    }
+  }
+  
+  
+
+*/
+
+
+
+
