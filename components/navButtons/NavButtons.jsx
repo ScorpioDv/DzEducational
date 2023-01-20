@@ -5,8 +5,8 @@ export default function NavButtons(){
         <>
         <div className={styles.navLeft}>
         <div className={styles.navIcons}>
-            <img src="http://localhost:3000/Youtube.svg" alt="" />
-            <img src="http://localhost:3000/Lightbolb.svg" alt="" />
+            <img src="/Youtube.svg" alt="" />
+            <img src="/Lightbolb.svg" alt="" />
         </div>
         <div className={styles.languageButtonContainer}>
             <button className={styles.languageButton}>Arabic</button>

@@ -20,8 +20,9 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./PrimarySub.module.scss";
 import { onValue } from 'firebase/database';
-import {db} from '../..Firebase'
+import {db} from '../../Firebase'
 import { ref as Ref } from 'firebase/database';
+import {grades} from "../../data/grades"
 //sh
 export default function Grade({grade}) {
   const router = useRouter()

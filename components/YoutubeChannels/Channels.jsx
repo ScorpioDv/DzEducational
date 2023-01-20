@@ -16,14 +16,14 @@ export default function BankChannels() {
                 <div className={styles.help__card__content1}>
 
                  <div className={styles.youtube}>
-                    <img className={styles.Channel_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={100}/>
+                    <img className={styles.Channel_Logo} src="/YoutubeCircle.png"  alt="" width={100}/>
                 </div>
                 <div className={styles.text_content}>
                 <h1 className={styles.text_content_hero}>Hero Title Here</h1>
                 Lorem ipsum sit amet, consectetuer adipiscing elit. Aenean.
                
                 </div>
-                <img className={styles.Youtube_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
+                <img className={styles.Youtube_Logo} src="/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
 
 
                 </div>
@@ -42,14 +42,14 @@ export default function BankChannels() {
                 <div className={styles.help__card__content1}>
 
                  <div className={styles.youtube}>
-                    <img className={styles.Channel_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={100}/>
+                    <img className={styles.Channel_Logo} src="/YoutubeCircle.png"  alt="" width={100}/>
                 </div>
                 <div className={styles.text_content}>
                 <h1 className={styles.text_content_hero}>Hero Title Here</h1>
                 Lorem ipsum sit amet, consectetuer adipiscing elit. Aenean.
                
                 </div>
-                <img className={styles.Youtube_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
+                <img className={styles.Youtube_Logo} src="/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
 
 
                 </div>
@@ -70,14 +70,14 @@ export default function BankChannels() {
                 <div className={styles.help__card__content1}>
 
                  <div className={styles.youtube}>
-                    <img className={styles.Channel_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={100}/>
+                    <img className={styles.Channel_Logo} src="/YoutubeCircle.png"  alt="" width={100}/>
                 </div>
                 <div className={styles.text_content}>
                 <h1 className={styles.text_content_hero}>Hero Title Here</h1>
                 Lorem ipsum sit amet, consectetuer adipiscing elit. Aenean.
                
                 </div>
-                <img className={styles.Youtube_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
+                <img className={styles.Youtube_Logo} src="/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
 
 
                 </div>
@@ -96,14 +96,14 @@ export default function BankChannels() {
                 <div className={styles.help__card__content1}>
 
                  <div className={styles.youtube}>
-                    <img className={styles.Channel_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={100}/>
+                    <img className={styles.Channel_Logo} src="/YoutubeCircle.png"  alt="" width={100}/>
                 </div>
                 <div className={styles.text_content}>
                 <h1 className={styles.text_content_hero}>Hero Title Here</h1>
                 Lorem ipsum sit amet, consectetuer adipiscing elit. Aenean.
                
                 </div>
-                <img className={styles.Youtube_Logo} src="http://localhost:3000/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
+                <img className={styles.Youtube_Logo} src="/YoutubeCircle.png"  alt="" width={"35px"} height={"35px"} />
 
 
                 </div>

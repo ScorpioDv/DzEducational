@@ -15,10 +15,11 @@ import RandomSaying from "../../../../components/RandomSaying/RandomSaying";
 import SocialMedia from "../../../../components/SocialMedia/SocialMedia";
 import Footer from "../../../../components/Footer/Footer";
 import {useEffect} from "react"
-import {db} from "../../../..Firebase"
+import {db} from "../../../../Firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
+import grades from "../../../../data/grades"
 export default function Subject({ grade, subject }) {
   let [data, setNewData] = useState()
   useEffect(() => {
@@ -100,7 +101,7 @@ export async function getStaticProps(context){
     const path = router.asPath.split('/')
     path.pop();
     const id = path[path.length - 1];
-    const grade = await fetch("http://localhost:3000/api/grades/" + id).then(res => res.json())
+    const grade = await fetch("/api/grades/" + id).then(res => res.json())
   
     return{
       props:{
@@ -110,7 +111,7 @@ export async function getStaticProps(context){
   }
   
   export async function getStaticPaths(){
-    const grades = await fetch("http://localhost:3000/api/grades").then(res => res.json())
+    const grades = await fetch("/api/grades").then(res => res.json())
     return{
       paths: grades.map(grade => {
         grade.subjects.map(subject => {

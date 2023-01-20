@@ -2,8 +2,8 @@ import React, { use, useState, useEffect} from "react";
 import styles from "./Nav.module.scss";
 import NavDropDown from "../navDropDown/NavDropDown";
 import NavButtons from "../navButtons/NavButtons"
-import NavLogo from "../Logo/NavLogo";
-import {db} from "../..Firebase"
+import NavLogo from "./Logo/NavLogo";
+import {db} from "../../Firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from "firebase/database";
@@ -31,14 +31,14 @@ export default function Navbar() {
     {
     link: "primaryschool/1ap",
     grade:"AP",
-    logo:"http://localhost:3000/OMLLL.svg",
+    logo:"/OMLLL.svg",
     numberOfSujets:"69+",
     color: "green"
   },
     {
       link: "primaryschool/2ap",
       grade:"2AP",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
       color: "green"
 
@@ -46,7 +46,7 @@ export default function Navbar() {
     {
       link: "primaryschool/3ap",
       grade:"3AP",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
       color: "green"
 
@@ -54,7 +54,7 @@ export default function Navbar() {
     {
       link: "primaryschool/4ap",
       grade:"4AP",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
       color: "green"
 
@@ -62,7 +62,7 @@ export default function Navbar() {
     {
       link: "primaryschool/5ap",
       grade:"5AP",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
       color: "green"
 
@@ -70,7 +70,7 @@ export default function Navbar() {
     {
       link: "primaryschool/bem",
       grade:"SEC",
-      logo:"http://localhost:3000/nowayyy.svg",
+      logo:"/nowayyy.svg",
       numberOfSujets:"69+",
       color: "green"
 
@@ -83,7 +83,7 @@ export default function Navbar() {
     {
     link: "middleschool/1am",
     grade:"1AM",
-    logo:"http://localhost:3000/OMLLL.svg",
+    logo:"/OMLLL.svg",
     numberOfSujets:"69+",
     color: "purple"
 
@@ -91,7 +91,7 @@ export default function Navbar() {
     {
       link: "middleschool/2am",
       grade:"2AM",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
       color: "purple"
 
@@ -100,7 +100,7 @@ export default function Navbar() {
     {
       link: "middleschool/3am",
       grade:"3AM",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
 
 
@@ -109,7 +109,7 @@ export default function Navbar() {
     {
       link: "middleschool/4am",
       grade:"4AM",
-      logo:"http://localhost:3000/OMLLL.svg",
+      logo:"/OMLLL.svg",
       numberOfSujets:"69+",
       color: "purple"
 
@@ -117,7 +117,7 @@ export default function Navbar() {
     {
       link: "middleschool/bem",
       grade:"BEM",
-      logo:"http://localhost:3000/nowayyy.svg",
+      logo:"/nowayyy.svg",
       numberOfSujets:"69+",
       color: "purple"
 
@@ -130,7 +130,7 @@ export default function Navbar() {
         {
         link: "highschool/1as",
         grade:"1AS",
-        logo:"http://localhost:3000/OMLLL.svg",
+        logo:"/OMLLL.svg",
         numberOfSujets:"69+",
         color: "orange"
 
@@ -138,7 +138,7 @@ export default function Navbar() {
         {
           link: "highschool/2as",
           grade:"2AS",
-          logo:"http://localhost:3000/OMLLL.svg",
+          logo:"/OMLLL.svg",
           numberOfSujets:"69+",
           color: "orange"
 
@@ -147,7 +147,7 @@ export default function Navbar() {
         {
           link: "highschool/3as",
           grade:"3AS",
-          logo:"http://localhost:3000/OMLLL.svg",
+          logo:"/OMLLL.svg",
           numberOfSujets:"69+",
           color: "orange"
 
@@ -156,7 +156,7 @@ export default function Navbar() {
         {
           link: "highschool/bem",
           grade:"BAC",
-          logo:"http://localhost:3000/nowayyy.svg",
+          logo:"/nowayyy.svg",
           numberOfSujets:"69+",
           color: "orange"
 
@@ -170,13 +170,13 @@ export default function Navbar() {
        <nav className={styles.DownbarContainer}>
             <div className={styles.Downbar}>
             <div>
-            <img src="http://localhost:3000/icrn.svg" alt="" />
+            <img src="/icrn.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/doc.svg" alt="" />
+            <img src="/doc.svg" alt="" />
             </div >
             <div>
-            <img src="http://localhost:3000/file.svg" alt="" />
+            <img src="/file.svg" alt="" />
             </div>
             </div>
 

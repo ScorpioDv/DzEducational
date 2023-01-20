@@ -15,7 +15,7 @@ export default function NavDropDown(props) {
  }
  
  function handleClick(page) {
-  Router.push("http://localhost:3000/" + page)
+  Router.push("/" + page)
 }//${props.color === "purple" ? "#EB79FE"}
  const list = grades.map((grade)  => (
   
@@ -45,7 +45,7 @@ export default function NavDropDown(props) {
       >
         <div className={`${styles.gradename}`}>
           one Lorem{" "}
-          <img src="http://localhost:3000/AHHHH.svg" width={"10px"} height={"20px"} style={{transform: `rotate(${isHovered ? "180deg" : "0deg"})`, transition:"all .2s ease-in-out"}} />
+          <img src="/AHHHH.svg" width={"10px"} height={"20px"} style={{transform: `rotate(${isHovered ? "180deg" : "0deg"})`, transition:"all .2s ease-in-out"}} />
 
           <div className={`${styles.subject__number}`}>
             {" "}
@@ -92,7 +92,7 @@ export default function NavDropDown(props) {
       >
         <div className={`${styles.gradename}`}>
           one Lorem{" "}
-          <img src="http://localhost:3000/AHHHH.svg" width={"10px"} height={"20px"} style={{transform: `rotate(${isHovered ? "180deg" : "0deg"})`, transition:"all .2s ease-in-out"}} />
+          <img src="/AHHHH.svg" width={"10px"} height={"20px"} style={{transform: `rotate(${isHovered ? "180deg" : "0deg"})`, transition:"all .2s ease-in-out"}} />
 
           <div className={`${styles.subject__number}`}>
             {" "}

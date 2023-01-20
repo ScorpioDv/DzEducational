@@ -44,9 +44,9 @@ export default function Sujet(props){
         <>
         <div className={styles.sujetContainer}>
         <div className={styles.sujetHeader}>
-            <button className={styles.prevButton} onClick={handleBeforeClick} disabled={matchingBeforeSujet[0] ? false : true}><img src="http://localhost:3000/prev.svg" width={"40px"}/></button>
+            <button className={styles.prevButton} onClick={handleBeforeClick} disabled={matchingBeforeSujet[0] ? false : true}><img src="/prev.svg" width={"40px"}/></button>
             <p className={styles.sujetTitle}>Lorem ipsum dolor, siT amet consectetur adipisicing elit</p>
-            <button className={styles.nextButton} onClick={ handleNextClick} disabled={matchingAfterSujet[0] ? false : true}><img src="http://localhost:3000/prev.svg" width={"40px"} style={{rotate:"180deg"}}/></button>
+            <button className={styles.nextButton} onClick={ handleNextClick} disabled={matchingAfterSujet[0] ? false : true}><img src="/prev.svg" width={"40px"} style={{rotate:"180deg"}}/></button>
 
         </div>
         <iframe
@@ -59,9 +59,9 @@ export default function Sujet(props){
 
         </iframe>
         <div className={styles.sujetButtons}>
-            <a href={props.currentData.downloadUrl} className={styles.tag}><button className={styles.button}> <img className={styles.buttonIcon} src="http://localhost:3000/Download.svg" alt="" /> </button></a>
-            <button className={styles.button}> <img className={styles.buttonIcon} src="http://localhost:3000/Upscale.svg" alt="" /> </button>
-            <button className={styles.button} onClick={refreshIFrame}> <img className={styles.buttonIcon} src="http://localhost:3000/Refresh.svg" alt="" /> </button>
+            <a href={props.currentData.downloadUrl} className={styles.tag}><button className={styles.button}> <img className={styles.buttonIcon} src="/Download.svg" alt="" /> </button></a>
+            <button className={styles.button}> <img className={styles.buttonIcon} src="/Upscale.svg" alt="" /> </button>
+            <button className={styles.button} onClick={refreshIFrame}> <img className={styles.buttonIcon} src="/Refresh.svg" alt="" /> </button>
         </div>
         </div>
         </>

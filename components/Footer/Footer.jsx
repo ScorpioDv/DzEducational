@@ -17,7 +17,7 @@ export default function Footer(){
              
             </div>
             <div className={styles.middleFooter}>
-                <img src="http://localhost:3000/RealLogo.svg" alt="" />
+                <img src="/RealLogo.svg" alt="" />
             </div>
             <div className={styles.rightFooter}>
                 <h1>About Us</h1>
@@ -28,27 +28,27 @@ export default function Footer(){
             <h1>Our Social Media</h1>
             <div className={styles.Socials}>
             <div>
-            <img src="http://localhost:3000/TiktokSocial.svg" alt="" />
+            <img src="/TiktokSocial.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/FacebookSocial.svg" alt="" />
+            <img src="/FacebookSocial.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/TwitterSocial.svg" alt="" />
+            <img src="/TwitterSocial.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/InstaSocial.svg" alt="" />
+            <img src="/InstaSocial.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/DiscordSocial.svg" alt="" />
+            <img src="/DiscordSocial.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/YoutubeSocial.svg" alt="" />
+            <img src="/YoutubeSocial.svg" alt="" />
             </div>
             </div>
           
         </div>
-        <img className={styles.algeriaFlag} src="http://localhost:3000/AlgeriaFlag.svg" alt="" width={45}/>
+        <img className={styles.algeriaFlag} src="/AlgeriaFlag.svg" alt="" width={45}/>
        </footer>
        </> 
     )

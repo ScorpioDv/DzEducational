@@ -15,7 +15,7 @@ import RandomSaying from "../../../../../components/RandomSaying/RandomSaying";
 import SocialMedia from "../../../../../components/SocialMedia/SocialMedia";
 import Footer from "../../../../../components/Footer/Footer";
 import {useEffect} from "react"
-import {db} from "../../../../..Firebase"
+import {db} from "../../../../../Firebase"
 import {set} from "firebase/database"
 import {ref} from "firebase/database" 
 import { once, onValue } from 'firebase/database';
@@ -119,7 +119,7 @@ export async function getStaticPaths(context) {
     console.log(params);
     const paths = []; //
     
-    const grades = await fetch('http://localhost:3000/api/grades').then(res => res.json());
+    const grades = await fetch('/api/grades').then(res => res.json());
     const Ref = firebase.database().ref(`https://dzeducation-c2cb1-default-rtdb.europe-west1.firebasedatabase.app`);
     Ref.onValue((snapshot) => {
         const data = snapshot.val();
@@ -163,7 +163,7 @@ export async function getStaticProps(context){
     const path = router.asPath.split('/')
     path.pop();
     const id = path[path.length - 1];
-    const grade = await fetch("http://localhost:3000/api/grades/" + id).then(res => res.json())
+    const grade = await fetch("/api/grades/" + id).then(res => res.json())
   
     return{
       props:{
@@ -173,7 +173,7 @@ export async function getStaticProps(context){
   }
   
   export async function getStaticPaths(){
-    const grades = await fetch("http://localhost:3000/api/grades").then(res => res.json())
+    const grades = await fetch("/api/grades").then(res => res.json())
     return{
       paths: grades.map(grade => {
         grade.subjects.map(subject => {

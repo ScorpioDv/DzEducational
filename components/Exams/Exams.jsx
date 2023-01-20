@@ -140,7 +140,7 @@ function handleClick(page) {
             <div className={styles.numArrowContainer}>
               <h2 className={styles.numberOfSujets}>158 +</h2>
               <img
-                src="http://localhost:3000/vector.svg"
+                src="/vector.svg"
                 alt=""
                 style={{
                   transform: `${
@@ -168,7 +168,7 @@ function handleClick(page) {
                 <div className={styles.numArrowContainer}>
                   <h2 className={styles.numberOfSujets}>158 +</h2>
                   <img
-                    src="http://localhost:3000/vector.svg"
+                    src="/vector.svg"
                     alt=""
                     style={{
                       transform: `${
@@ -190,7 +190,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src={data.solution ? "http://localhost:3000/assets/icons/checkmark.svg" : "http://localhost:3000/assets/icons/unCheckedMark.svg"} alt="" />
+                      <img src={data.solution ? "/assets/icons/checkmark.svg" : "/assets/icons/unCheckedMark.svg"} alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2>{data.division}</h2>
@@ -220,7 +220,7 @@ function handleClick(page) {
                 <div className={styles.numArrowContainer}>
                   <h2 className={styles.numberOfSujets}>158 +</h2>
                   <img
-                    src="http://localhost:3000/vector.svg"
+                    src="/vector.svg"
                     alt=""
                     style={{
                       transform: `${
@@ -240,7 +240,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src={data.solution ? "http://localhost:3000/assets/icons/checkmark.svg" : "http://localhost:3000/assets/icons/unCheckedMark.svg"} alt="" />
+                      <img src={data.solution ? "/assets/icons/checkmark.svg" : "/assets/icons/unCheckedMark.svg"} alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2>{data.division}</h2>
@@ -320,7 +320,7 @@ function handleClick(page) {
             <div className={styles.numArrowContainer}>
               <h2 className={styles.numberOfSujets}>158 +</h2>
               <img
-                src="http://localhost:3000/vector.svg"
+                src="/vector.svg"
                 alt=""
                 style={{
                   transform: `${
@@ -348,7 +348,7 @@ function handleClick(page) {
                 <div className={styles.numArrowContainer}>
                   <h2 className={styles.numberOfSujets}>158 +</h2>
                   <img
-                    src="http://localhost:3000/vector.svg"
+                    src="/vector.svg"
                     alt=""
                     style={{
                       transform: `${
@@ -370,7 +370,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src={data.solution ? "http://localhost:3000/assets/icons/checkmark.svg" : "http://localhost:3000/assets/icons/unCheckedMark.svg"} alt="" />
+                      <img src={data.solution ? "/assets/icons/checkmark.svg" : "/assets/icons/unCheckedMark.svg"} alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2>{data.division}</h2>
@@ -400,7 +400,7 @@ function handleClick(page) {
                 <div className={styles.numArrowContainer}>
                   <h2 className={styles.numberOfSujets}>158 +</h2>
                   <img
-                    src="http://localhost:3000/vector.svg"
+                    src="/vector.svg"
                     alt=""
                     style={{
                       transform: `${
@@ -420,7 +420,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src={data.solution ? "http://localhost:3000/assets/icons/checkmark.svg" : "http://localhost:3000/assets/icons/unCheckedMark.svg"} alt="" />
+                      <img src={data.solution ? "/assets/icons/checkmark.svg" : "/assets/icons/unCheckedMark.svg"} alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2>{data.division}</h2>
@@ -475,7 +475,7 @@ function handleClick(page) {
             <div className={styles.numArrowContainer}>
               <h2 className={styles.numberOfSujets}>158 +</h2>
               <img
-                src="http://localhost:3000/vector.svg"
+                src="/vector.svg"
                 alt=""
                 style={{
                   transform: `${
@@ -503,7 +503,7 @@ function handleClick(page) {
                 <div className={styles.numArrowContainer}>
                   <h2 className={styles.numberOfSujets}>158 +</h2>
                   <img
-                    src="http://localhost:3000/vector.svg"
+                    src="/vector.svg"
                     alt=""
                     style={{
                       transform: `${
@@ -525,7 +525,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src={data.solution ? "http://localhost:3000/assets/icons/checkmark.svg" : "http://localhost:3000/assets/icons/unCheckedMark.svg"} alt="" />
+                      <img src={data.solution ? "/assets/icons/checkmark.svg" : "/assets/icons/unCheckedMark.svg"} alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2>{data.division}</h2>
@@ -555,7 +555,7 @@ function handleClick(page) {
                 <div className={styles.numArrowContainer}>
                   <h2 className={styles.numberOfSujets}>158 +</h2>
                   <img
-                    src="http://localhost:3000/vector.svg"
+                    src="/vector.svg"
                     alt=""
                     style={{
                       transform: `${
@@ -575,7 +575,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src={data.solution ? "http://localhost:3000/assets/icons/checkmark.svg" : "http://localhost:3000/assets/icons/unCheckedMark.svg"} alt="" />
+                      <img src={data.solution ? "/assets/icons/checkmark.svg" : "/assets/icons/unCheckedMark.svg"} alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2>{data.division}</h2>
@@ -601,7 +601,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src="http://localhost:3000/checkmark.svg" alt="" />
+                      <img src="/checkmark.svg" alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2 className={styles.dificilityPrefix}>dificility: </h2>
@@ -616,7 +616,7 @@ function handleClick(page) {
                   <div className={styles.examDesc}>
                     <div className={styles.solution}>
                       <h2>Solution: </h2>
-                      <img src="http://localhost:3000/checkmark.svg" alt="" />
+                      <img src="/checkmark.svg" alt="" />
                     </div>
                     <div className={styles.dificility}>
                       <h2 className={styles.dificilityPrefix}>dificility: </h2>

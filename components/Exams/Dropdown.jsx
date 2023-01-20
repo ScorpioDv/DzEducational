@@ -13,7 +13,7 @@ export  function Exams() {
       <>
         <div onClick={() => turn()} style={{borderRadius: `${!isOn ? "15px" : " 15px 15px 0px 0px"}`}}>
         First Tirm
-        <img src="http://localhost:3000/vector.svg" alt="" style={{transform: `${isOn ? "Rotate(0deg)" : "Rotate(90deg)"}`}}/>
+        <img src="/vector.svg" alt="" style={{transform: `${isOn ? "Rotate(0deg)" : "Rotate(90deg)"}`}}/>
         </div>
         
       </>
@@ -31,7 +31,7 @@ export function Examsa() {
       <>
         <div onClick={() => turn()} style={{borderRadius: `${!isOn ? "15px" : " 15px 15px 0px 0px"}`}}>
         First Tirm
-        <img src="http://localhost:3000/vector.svg" alt="" style={{transform: `${isOn ? "Rotate(0deg)" : "Rotate(90deg)"}`}}/>
+        <img src="/vector.svg" alt="" style={{transform: `${isOn ? "Rotate(0deg)" : "Rotate(90deg)"}`}}/>
         </div>
         
       </>

@@ -8,13 +8,13 @@ export default function Downbar() {
         <nav className={styles.DownbarContainer}>
             <div className={styles.Downbar}>
             <div>
-            <img src="http://localhost:3000/icrn.svg" alt="" />
+            <img src="/icrn.svg" alt="" />
             </div>
             <div>
-            <img src="http://localhost:3000/doc.svg" alt="" />
+            <img src="/doc.svg" alt="" />
             </div >
             <div>
-            <img src="http://localhost:3000/file.svg" alt="" />
+            <img src="/file.svg" alt="" />
 
             </div>
 

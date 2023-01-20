@@ -22,12 +22,12 @@ export default function Division({division, stage, grade}) {
                 <div className={styles.wrapper}>
                 <h6>Number of Exams : 100</h6>
                 </div>
-                <img className={styles.logosub} src={division === "managementandeconomy" ? "http://localhost:3000/svg/managementAndEconomy.svg" : 
-                division === "practicalscience" ? "http://localhost:3000/svg/praticalScience.svg" : 
-                division === "mathematicsdivision" ? "http://localhost:3000/svg/mathematicsDivision.svg" : 
-                division === "technicalmathematics" ? "http://localhost:3000/svg/technicalAthlete.svg" : 
-                division === "offoreignlanguages" ? "http://localhost:3000/svg/offOreignLanguages.svg" : 
-                division === "literatureandphilosophy" ? "http://localhost:3000/svg/literature.svg" : 
+                <img className={styles.logosub} src={division === "managementandeconomy" ? "/svg/managementAndEconomy.svg" : 
+                division === "practicalscience" ? "/svg/praticalScience.svg" : 
+                division === "mathematicsdivision" ? "/svg/mathematicsDivision.svg" : 
+                division === "technicalmathematics" ? "/svg/technicalAthlete.svg" : 
+                division === "offoreignlanguages" ? "/svg/offOreignLanguages.svg" : 
+                division === "literatureandphilosophy" ? "/svg/literature.svg" : 
                
                 console.log("error")} alt=""  width={"40px"}/>
                  <div className={styles.channel__backlayer} onMouseOver={()=> test()} ></div>
@@ -40,7 +40,7 @@ export default function Division({division, stage, grade}) {
     )
 
 }
-//                <img className={styles.arrow} src={"http://localhost:3000/vector.svg"} alt="" style={{transform: `rotate(${!isOn ? -90 : 0}deg)`}} width={"8px"}/> 
+//                <img className={styles.arrow} src={"/vector.svg"} alt="" style={{transform: `rotate(${!isOn ? -90 : 0}deg)`}} width={"8px"}/> 
 
 
 /* <div className={`dropdown_ ${isOn ? "unhide" : "hide"}`}>

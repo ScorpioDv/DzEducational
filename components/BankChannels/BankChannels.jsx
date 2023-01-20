@@ -10,7 +10,7 @@ export default function BankChannels() {
             <div className={styles.bank__channels}>
 
                 <div className={styles.channel}>
-                    <img src="http://localhost:3000/YoutubeCircle.png"  alt="" />
+                    <img src="/YoutubeCircle.png"  alt="" />
                     <div className={styles.channel__text}>
                     <h1 className={`hero green_txt`}>Hero</h1>
                     <h3 className={styles.channel__description}> Learn with fatima</h3>
@@ -20,7 +20,7 @@ export default function BankChannels() {
                     <div className={styles.channel__backlayer} onMouseOver={()=> test()} ></div>
                 </div>
                 <div className={styles.channel}>
-                    <img src="http://localhost:3000/YoutubeCircle.png"  alt="" />
+                    <img src="/YoutubeCircle.png"  alt="" />
                     <div className={styles.channel__text}>
                     <h1 className={`hero purple_txt`}>Hero</h1>
                     <h3 className={styles.channel__description}> Learn with fatima</h3>
@@ -30,7 +30,7 @@ export default function BankChannels() {
                     <div className={styles.channel__backlayer} onMouseOver={()=> test()} ></div>
                 </div>
                 <div className={styles.channel}>
-                    <img src="http://localhost:3000/YoutubeCircle.png"  alt="" />
+                    <img src="/YoutubeCircle.png"  alt="" />
                     <div className={styles.channel__text}>
                     <h1 className={`hero orange_txt`}>Hero</h1>
                     <h3 className={styles.channel__description}> Learn with fatima</h3>

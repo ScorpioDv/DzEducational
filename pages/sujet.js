@@ -6,7 +6,7 @@ export default function Page({url}) {
   url && console.log(url)
   return (
     <>
-      <FacebookComments url={"http://localhost:3000/sujet"}/>
+      <FacebookComments url={"/sujet"}/>
     </>
   )
 }

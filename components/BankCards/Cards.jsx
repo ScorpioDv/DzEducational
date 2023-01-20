@@ -18,7 +18,7 @@ export default function Cards(props) {
           <div className={` ${styles.card}`}>
             
             <img
-              src={`http://localhost:3000/Rectangle 18.svg`}
+              src={`/Rectangle 18.svg`}
               alt=""
               className={`${styles.gradeImg}`}
             />
@@ -38,7 +38,7 @@ export default function Cards(props) {
           <div className={` ${styles.card}`}>
             
             <img
-              src={`http://localhost:3000/Rectangle 18.svg`}
+              src={`/Rectangle 18.svg`}
               alt=""
               className={`${styles.gradeImg}`}
             />
@@ -59,7 +59,7 @@ export default function Cards(props) {
           <div className={` ${styles.card}`}>
             
             <img
-              src={`http://localhost:3000/Rectangle 18.svg`}
+              src={`/Rectangle 18.svg`}
               alt=""
               className={`${styles.gradeImg}`}
             />
@@ -83,7 +83,7 @@ export default function Cards(props) {
           <div className={` ${styles.card}`}>
             
             <img
-              src={`http://localhost:3000/Rectangle 18.svg`}
+              src={`/Rectangle 18.svg`}
               alt=""
               className={`${styles.gradeImg}`}
             />
@@ -115,7 +115,7 @@ export default function Cards(props) {
   );
 }
 /*     <img
-              src={`http://localhost:3000/Rectangle%2017.svg`}
+              src={`http:///Rectangle%2017.svg`}
               alt=""
               className={`${styles.backimg}`}
             />*/

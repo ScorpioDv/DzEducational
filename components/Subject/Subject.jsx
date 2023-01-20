@@ -27,20 +27,20 @@ export default function Subject({Subject, stage, grade, data}) {
                 <div className={styles.wrapper}>
                 <h4>Number of Exams : {NumberOfSujets ? NumberOfSujets : 0}</h4>
                 </div>
-                <img className={styles.logosub} src={Subject === "maths" ? "http://localhost:3000/svg/Maths.svg" : 
-                Subject === "science" ? "http://localhost:3000/svg/Science.svg" : 
-                Subject === "history" ? "http://localhost:3000/svg/history.svg" : 
-                Subject === "informatique" ? "http://localhost:3000/svg/informatique.svg" : 
-                Subject === "madania" ? "http://localhost:3000/svg/Madania.svg" : 
-                Subject === "music" ? "http://localhost:3000/svg/Music.svg" : 
-                Subject === "islamic" ? "http://localhost:3000/svg/islamic.svg" : 
-                Subject === "french" ? "http://localhost:3000/svg/french.svg" : 
-                Subject === "arabic" ? "http://localhost:3000/svg/Arabic.svg" : 
-                Subject === "english" ? "http://localhost:3000/svg/English.svg" :
-                Subject === "physics" ? "http://localhost:3000/svg/physics.svg" :
-                Subject === "art" ? "http://localhost:3000/svg/Art.svg" :
-                Subject === "amazigh" ? "http://localhost:3000/svg/amazighs.svg" :
-                Subject === "philosophy" ? "http://localhost:3000/svg/philosophy.svg" :
+                <img className={styles.logosub} src={Subject === "maths" ? "/svg/Maths.svg" : 
+                Subject === "science" ? "/svg/Science.svg" : 
+                Subject === "history" ? "/svg/history.svg" : 
+                Subject === "informatique" ? "/svg/informatique.svg" : 
+                Subject === "madania" ? "/svg/Madania.svg" : 
+                Subject === "music" ? "/svg/Music.svg" : 
+                Subject === "islamic" ? "/svg/islamic.svg" : 
+                Subject === "french" ? "/svg/french.svg" : 
+                Subject === "arabic" ? "/svg/Arabic.svg" : 
+                Subject === "english" ? "/svg/English.svg" :
+                Subject === "physics" ? "/svg/physics.svg" :
+                Subject === "art" ? "/svg/Art.svg" :
+                Subject === "amazigh" ? "/svg/amazighs.svg" :
+                Subject === "philosophy" ? "/svg/philosophy.svg" :
                 console.log("error")} alt=""  width={"40px"}/>
                  <div className={styles.channel__backlayer} onMouseOver={()=> test()} ></div>
                 </div>
@@ -52,7 +52,7 @@ export default function Subject({Subject, stage, grade, data}) {
     )
 
 }
-//                <img className={styles.arrow} src={"http://localhost:3000/vector.svg"} alt="" style={{transform: `rotate(${!isOn ? -90 : 0}deg)`}} width={"8px"}/> 
+//                <img className={styles.arrow} src={"/vector.svg"} alt="" style={{transform: `rotate(${!isOn ? -90 : 0}deg)`}} width={"8px"}/> 
 
 
 /* <div className={`dropdown_ ${isOn ? "unhide" : "hide"}`}>

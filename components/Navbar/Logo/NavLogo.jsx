@@ -4,7 +4,7 @@ export default function NavLogo(){
     return(
         <>
         <div>
-            <img className={styles.img} src="http://localhost:3000/placeholder.com-logo3.jpg" alt=""  width={150}/>
+            <img className={styles.img} src="/placeholder.com-logo3.jpg" alt=""  width={150}/>
         </div>
         </>
     )

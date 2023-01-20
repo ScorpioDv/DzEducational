@@ -1,4 +1,4 @@
-import {db} from "../../Firebase"
+import {db} from "../../../Firebase"
 import { onValue,ref } from 'firebase/database';
 import firebase from 'firebase/app'
 

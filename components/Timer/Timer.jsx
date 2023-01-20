@@ -6,7 +6,7 @@ export default function Timer(props){
         <>
         <div className={styles.TimerContaienr}>
             <div className={styles.Timer}>
-                <img className={styles.TimerLogo} src={"http://localhost:3000/Timer.svg"}/>
+                <img className={styles.TimerLogo} src={"/Timer.svg"}/>
                 <div className={styles.input}>
                 <input type="text" />
                 </div>
@@ -133,7 +133,7 @@ export default function Timer(props) {
     
     <div className={styles.TimerContaienr}>
     <div className={styles.Timer}>
-    <img className={styles.TimerLogo} src={"http://localhost:3000/Timer.svg"}/>
+    <img className={styles.TimerLogo} src={"/Timer.svg"}/>
 
 
           <input

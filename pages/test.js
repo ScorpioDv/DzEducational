@@ -1,5 +1,5 @@
 
-import {db} from "..Firebase"
+import {db} from "../Firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
@@ -10,7 +10,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { storage } from "..Firebase";
+import { storage } from "../Firebase";
 import { v4 } from "uuid";
 import { useState,useEffect } from "react";
 import uid from "uid"
@@ -405,7 +405,7 @@ console.log(arrayOfIds);*/
 /*  */
 /*
 
-import {db} from "..Firebase"
+import {db} from "../Firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
@@ -416,7 +416,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { storage } from "..Firebase";
+import { storage } from "../Firebase";
 import { v4 } from "uuid";
 import { useState,useEffect } from "react";
 import uid from "uid"
@@ -514,7 +514,7 @@ export default function App(){
     
 
   useEffect(() => {
-    const url = "http://localhost:3000/api/upload";
+    const url = "/api/upload";
     const fetchData = async () => {
       try {
         const response = await fetch(url);
