@@ -20,7 +20,7 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import Footer from "../../components/Footer/Footer";
 import styles from "./PrimarySub.module.scss";
 import { onValue } from 'firebase/database';
-import {db} from '../../Firebase'
+import {db} from '../../firebase'
 import { ref as Ref } from 'firebase/database';
 import {grades} from "../../data/grades"
 import {server} from '../../config'
