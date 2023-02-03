@@ -15,7 +15,7 @@ import RandomSaying from "../../../components/RandomSaying/RandomSaying";
 import SocialMedia from "../../../components/SocialMedia/SocialMedia";
 import Footer from "../../../components/Footer/Footer";
 import {useEffect} from "react"
-import {db} from "../../../Firebase"
+import {db} from "../../../firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from 'firebase/database';
