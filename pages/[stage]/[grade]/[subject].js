@@ -56,8 +56,8 @@ export default function Subject({ grade, subject }) {
 }
 export async function getStaticProps(context) {
   const id = context.params.grade;
-  const grade = await fetch(server+`/api/grades/${id}`).then(res => res.json());
-
+  //const grade = await fetch(server+`/api/grades/${id}`).then(res => res.json());
+  const grade = grades.filter(item => item.name === id)
   return {
     props: {
       grade: grade,
@@ -66,7 +66,8 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-  const gradesa = await fetch(server+'/api/grades').then(res => res.json());
+  // const gradesa = await fetch(server+'/api/grades').then(res => res.json());
+  const grades
   const paths = [];
   grades.forEach(grade => {
     grade.subjects.forEach(subject => {
