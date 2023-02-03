@@ -3,7 +3,7 @@ import styles from "./Nav.module.scss";
 import NavDropDown from "../navDropDown/NavDropDown";
 import NavButtons from "../navButtons/NavButtons"
 import NavLogo from "./Logo/NavLogo";
-import {db} from "../../Firebase"
+import {db} from "../../firebase"
 import {set} from "firebase/database"
 import {ref as Ref} from "firebase/database"
 import { once, onValue } from "firebase/database";
