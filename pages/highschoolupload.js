@@ -10,7 +10,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { storage } from "../Firebase";
+import { storage } from "../firebase";
 import { v4 } from "uuid";
 import { useState,useEffect } from "react";
 import uid from "uid"
